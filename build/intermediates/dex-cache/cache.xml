@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/alikhan/Documents/mary/app/libs/android-support-v4.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="/Users/alikhan/Documents/mary/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_e7482d1b151a27a31c17672973481d96a7cf309b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/alikhan/Documents/mary/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="0475a0f89660d5a25313324080b44b1a4b6d7479">
+        <dex dex="/Users/alikhan/Documents/mary/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_0c6b4478b28b73ca764f12ad31718a30d3521f0e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/alikhan/Documents/mary/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="38f3cff112e5def334734bc238ebb4586033f730">
+        <dex dex="/Users/alikhan/Documents/mary/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_625af0c0ced4df20c1a002b8e31c2ec21f1a1ee5/classes.dex" />
+    </item>
+
+</items>

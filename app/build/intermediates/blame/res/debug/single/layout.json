@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/alikhan/Documents/mary/app/build/intermediates/res/merged/debug/layout/activity_main2.xml",
+        "source": "/Users/alikhan/Documents/mary/app/src/main/res/layout/activity_main2.xml"
+    },
+    {
+        "merged": "/Users/alikhan/Documents/mary/app/build/intermediates/res/merged/debug/layout/activity_main_2.xml",
+        "source": "/Users/alikhan/Documents/mary/app/src/main/res/layout/activity_main_2.xml"
+    },
+    {
+        "merged": "/Users/alikhan/Documents/mary/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/alikhan/Documents/mary/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/alikhan/Documents/mary/app/build/intermediates/res/merged/debug/layout/settings.xml",
+        "source": "/Users/alikhan/Documents/mary/app/src/main/res/layout/settings.xml"
+    }
+]

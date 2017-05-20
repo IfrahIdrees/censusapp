@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/bExport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tvUserNotification"
+        android:layout_below="@+id/bReset"
+        android:text="export" />
+
+    <TextView
+        android:id="@+id/tvUserNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ProgressBar
+        android:id="@+id/pbCallsleft"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:drawablePadding="2dip"
+    	android:paddingLeft="30dip"
+    	android:paddingRight="30dip"
+        android:layout_below="@+id/bCall" />
+
+    <Button
+        android:id="@+id/bReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bResetEnsure"
+        android:layout_alignBottom="@+id/bResetEnsure"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/bExport"
+        android:text="reset" />
+
+    <Button
+        android:id="@+id/bCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tvUserNotification"
+        android:layout_below="@+id/tvUserNotification"
+        android:layout_marginTop="48dp"
+        android:text="call" />
+
+    <Button
+        android:id="@+id/bResetEnsure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pbCallsleft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="no" />
+
+    <Button
+        android:id="@+id/bRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bResetEnsure"
+        android:layout_alignParentTop="true"
+        android:text="Refresh" />
+
+    <Button
+        android:id="@+id/bSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/bExport"
+        android:layout_below="@+id/bExport"
+        android:text="Settings" />
+
+    <Button
+        android:id="@+id/bUpdateSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bSettings"
+        android:layout_alignBottom="@+id/bSettings"
+        android:layout_toRightOf="@+id/bSettings"
+        android:text="Update settings" />
+
+    <Button
+        android:id="@+id/bReceiverMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bCall"
+        android:layout_alignLeft="@+id/bRefresh"
+        android:layout_alignRight="@+id/bUpdateSettings"
+        android:text="Receive mode off" />
+
+    <Button
+        android:id="@+id/b_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bUpdateSettings"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/et_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b_send"
+        android:layout_toRightOf="@+id/bSettings"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
